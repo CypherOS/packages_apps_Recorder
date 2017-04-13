@@ -81,6 +81,10 @@
   <string name="screen_last_title">最後の記録</string>
   <!-- Screen recorder last item message -->
   <string name="screen_last_message">日時: %1$s\n時間: %2$d 秒</string>
+  <!-- Screen recorder notification overlay title -->
+  <string name="screen_overlay_notif_title">録音準備OK</string>
+  <!-- Screen recorder notification overlay message -->
+  <string name="screen_overlay_notif_message">開始する準備ができたら録画ボタンを押してください</string>
   <!-- Permissions -->
   <!-- Permissions dialog title -->
   <string name="dialog_permissions_title">権限</string>
@@ -89,19 +93,21 @@
   <!-- Message: storage access denied -->
   <string name="dialog_permissions_storage">レコーダーは録音したファイルを保存するためにストレージの権限を必要とします。</string>
   <!-- Message: phone status denied -->
-  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために携帯電話の状態の権限が必要とします。</string>
+  <string name="dialog_permissions_phone">レコーダーは通話中に録音を停止するために端末の状態の権限が必要とします。</string>
   <!-- Message: microphone and storage access denied -->
   <string name="dialog_permissions_mic_storage">レコーダーは音声を録音するためにマイクの権限と、録音したファイルを保存するためにストレージの権限を必要とします。</string>
   <!-- Message: microphone and phone status access denied -->
-  <string name="dialog_permissions_mic_phone">レコーダーは音声を録音するためにマイクの権限と、通話中に録音を停止するために携帯電話の状態の権限を必要とします。</string>
+  <string name="dialog_permissions_mic_phone">レコーダーは音声を録音するためにマイクの権限と、通話中に録音を停止するために端末の状態の権限を必要とします。</string>
   <!-- Message: storage and phone status access denied -->
-  <string name="dialog_permissions_storage_phone">レコーダーは録音したファイルを保存するためにストレージの権限と、通話中に録音を停止するために携帯電話の状態の権限を必要とします。</string>
+  <string name="dialog_permissions_storage_phone">レコーダーは録音したファイルを保存するためにストレージの権限と、通話中に録音を停止するために端末の状態の権限を必要とします。</string>
   <!-- Message: microphone, storage and phone status access denied -->
-  <string name="dialog_permissions_mic_storage_phone">レコーダーは音声を録音するためにマイクの権限、録音したファイルを保存するためにストレージの権限、通話中に録音を停止するために携帯電話の状態の権限を必要とします。</string>
+  <string name="dialog_permissions_mic_storage_phone">レコーダーは音声を録音するためにマイクの権限、録音したファイルを保存するためにストレージの権限、通話中に録音を停止するために端末の状態の権限を必要とします。</string>
   <!-- Permissions dialog action: ask permissions access again -->
   <string name="dialog_permissions_ask">次回も確認する</string>
   <!-- Permissions dialog action: dismiss dialog -->
   <string name="dialog_permissions_dismiss">閉じる</string>
+  <!-- Message: overlay permission denied. Make sure "Draw over other apps" matches settings strings -->
+  <string name="dialog_permissions_overlay">レコーダーには画面を録画するために「他のアプリの上に重ねて表示」権限が必要です。設定で権限を許可してからレコーダーを起動し直してください。</string>
   <!-- No permissions granted error -->
   <string name="snack_permissions_no_permission">必要な権限が拒否されました。録音を開始するには設定アプリから権限を有効にしてください。</string>
 </resources>
