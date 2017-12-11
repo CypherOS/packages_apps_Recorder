@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2013 The CyanogenMod Project
  * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,8 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.sounds;
+package co.aoscp.recorder.screen;
 
-public interface OnAudioLevelUpdatedListener {
-    void onAudioLevelUpdated(int value);
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class ScreencastStartReceiver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        context.startService(intent.setClass(context, ScreencastService.class));
+    }
 }

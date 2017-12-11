@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.sounds;
+package co.aoscp.recorder.sounds;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -34,10 +34,10 @@ import android.support.v4.content.ContextCompat;
 import android.text.format.DateUtils;
 import android.util.Log;
 
-import org.lineageos.recorder.R;
-import org.lineageos.recorder.RecorderActivity;
-import org.lineageos.recorder.utils.LastRecordHelper;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.R;
+import co.aoscp.recorder.RecorderActivity;
+import co.aoscp.recorder.utils.LastRecordHelper;
+import co.aoscp.recorder.utils.Utils;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -52,8 +52,8 @@ import java.util.TimerTask;
 public class SoundRecorderService extends Service {
 
     static final String EXTENSION = ".pcm";
-    private static final String ACTION_STARTED = "org.lineageos.recorder.sounds.STARTED_SOUND";
-    private static final String ACTION_STOPPED = "org.lineageos.recorder.sounds.STOPPED_SOUND";
+    private static final String ACTION_STARTED = "co.aoscp.recorder.sounds.STARTED_SOUND";
+    private static final String ACTION_STOPPED = "co.aoscp.recorder.sounds.STOPPED_SOUND";
     private static final String EXTRA_FILE = "extra_filename";
 
     private static final String SOUNDRECORDER_NOTIFICATION_CHANNEL =

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder;
+package co.aoscp.recorder;
 
 import android.Manifest;
 import android.app.ActivityManager;
@@ -46,14 +46,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.lineageos.recorder.screen.OverlayService;
-import org.lineageos.recorder.screen.ScreencastService;
-import org.lineageos.recorder.sounds.RecorderBinder;
-import org.lineageos.recorder.sounds.SoundRecorderService;
-import org.lineageos.recorder.ui.SoundVisualizer;
-import org.lineageos.recorder.utils.LastRecordHelper;
-import org.lineageos.recorder.utils.OnBoardingHelper;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.screen.OverlayService;
+import co.aoscp.recorder.screen.ScreencastService;
+import co.aoscp.recorder.sounds.RecorderBinder;
+import co.aoscp.recorder.sounds.SoundRecorderService;
+import co.aoscp.recorder.ui.SoundVisualizer;
+import co.aoscp.recorder.utils.LastRecordHelper;
+import co.aoscp.recorder.utils.OnBoardingHelper;
+import co.aoscp.recorder.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
