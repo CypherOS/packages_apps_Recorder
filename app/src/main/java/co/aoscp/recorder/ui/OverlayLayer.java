@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.ui;
+package co.aoscp.recorder.ui;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -26,7 +26,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 
-import org.lineageos.recorder.R;
+import co.aoscp.recorder.R;
 
 public class OverlayLayer extends View {
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.screen;
+package co.aoscp.recorder.screen;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -24,10 +24,10 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 
-import org.lineageos.recorder.R;
-import org.lineageos.recorder.RecorderActivity;
-import org.lineageos.recorder.ui.OverlayLayer;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.R;
+import co.aoscp.recorder.RecorderActivity;
+import co.aoscp.recorder.ui.OverlayLayer;
+import co.aoscp.recorder.utils.Utils;
 
 public class OverlayService extends Service {
 

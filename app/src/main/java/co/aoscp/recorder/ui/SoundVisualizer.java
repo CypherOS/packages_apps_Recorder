@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.ui;
+package co.aoscp.recorder.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,9 +27,9 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import org.lineageos.recorder.R;
-import org.lineageos.recorder.sounds.OnAudioLevelUpdatedListener;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.R;
+import co.aoscp.recorder.sounds.OnAudioLevelUpdatedListener;
+import co.aoscp.recorder.utils.Utils;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;

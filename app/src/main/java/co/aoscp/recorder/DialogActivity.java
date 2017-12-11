@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder;
+package co.aoscp.recorder;
 
 import android.Manifest;
 import android.content.Intent;
@@ -33,8 +33,8 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import org.lineageos.recorder.utils.LastRecordHelper;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.utils.LastRecordHelper;
+import co.aoscp.recorder.utils.Utils;
 
 public class DialogActivity extends AppCompatActivity implements
         SharedPreferences.OnSharedPreferenceChangeListener {

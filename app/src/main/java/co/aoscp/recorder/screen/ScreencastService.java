@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.screen;
+package co.aoscp.recorder.screen;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -38,10 +38,10 @@ import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import org.lineageos.recorder.R;
-import org.lineageos.recorder.RecorderActivity;
-import org.lineageos.recorder.utils.LastRecordHelper;
-import org.lineageos.recorder.utils.Utils;
+import co.aoscp.recorder.R;
+import co.aoscp.recorder.RecorderActivity;
+import co.aoscp.recorder.utils.LastRecordHelper;
+import co.aoscp.recorder.utils.Utils;
 
 import java.lang.reflect.Method;
 import java.util.Timer;
@@ -54,9 +54,9 @@ public class ScreencastService extends Service {
 
     public static final String EXTRA_WITHAUDIO = "withaudio";
     public static final String ACTION_START_SCREENCAST =
-            "org.lineageos.recorder.screen.ACTION_START_SCREENCAST";
+            "co.aoscp.recorder.screen.ACTION_START_SCREENCAST";
     public static final String ACTION_STOP_SCREENCAST =
-            "org.lineageos.recorder.screen.ACTION_STOP_SCREENCAST";
+            "co.aoscp.recorder.screen.ACTION_STOP_SCREENCAST";
     static final String SCREENCASTER_NAME = "hidden:screen-recording";
     public static final int NOTIFICATION_ID = 61;
     private static final String LOGTAG = "ScreencastService";
@@ -183,8 +183,8 @@ public class ScreencastService extends Service {
             return START_NOT_STICKY;
         }
         final String action = intent.getAction();
-        if ("org.lineageos.recorder.server.display.SCAN".equals(action)
-                || "org.lineageos.recorder.server.display.STOP_SCAN".equals(action)) {
+        if ("co.aoscp.recorder.server.display.SCAN".equals(action)
+                || "co.aoscp.recorder.server.display.STOP_SCAN".equals(action)) {
             return START_STICKY;
         } else if (ACTION_START_SCREENCAST.equals(action)
                 || "com.cyanogenmod.ACTION_START_SCREENCAST".equals(action)) {

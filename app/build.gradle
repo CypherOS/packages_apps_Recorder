@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "org.lineageos.recorder"
+        applicationId "co.aoscp.recorder"
         minSdkVersion 26
         targetSdkVersion 26
         versionCode 1
