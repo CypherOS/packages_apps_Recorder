@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.sounds;
+package co.aoscp.recorder.sounds;
 
 public interface OnAudioLevelUpdatedListener {
     void onAudioLevelUpdated(int value);

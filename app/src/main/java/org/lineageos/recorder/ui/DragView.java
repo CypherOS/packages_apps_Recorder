@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.recorder.ui;
+package co.aoscp.recorder.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
